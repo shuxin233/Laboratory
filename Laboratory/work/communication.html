@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style4.css">
+    <link rel="stylesheet" href="css/mydenglu.css">
+    <link rel="stylesheet" href="css/mynav.css">
+    <title>交流反馈</title>
+
+
+</head>
+<body>
+
+
+<div class="all">
+    <div class="header clearfix">
+        <div class="logo ">
+            <h1 id="i1">虚拟</h1>
+            <h1 id="i2">实验室</h1>
+            <h1 id="i3">Virtual Laboratory</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="index.html"><p></p> <h1 id="list1">首页</h1></a>
+                </li>
+
+                <li>
+                    <a href="Laboratory.html"> <p></p><h1>模拟实验</h1> </a>
+                </li>
+
+                <li>
+                    <a href="Study.html"> <p></p> <h1>知识学习</h1> </a>
+                </li>
+                <li>
+                    <a href="communication.html"> <p></p><h1>交流反馈</h1> </a>
+                </li>
+                <li style="width: 80px">
+                    <a href="about-us.html"><p></p><h1>联系我们</h1> </a>
+                </li>
+                <li style="margin-top: 20px">
+                    <a id="denglu" style="color:#8a8a8a;font-weight: bold;display: block"><button type="button" class="denglu" onclick="mydenglu()">登录</button></a>
+                    <span id="dengluspan" style="display: none"></span>
+                    <a id="zhuxiao"  style="font-size: 10px;display: none;float: right"><br>注销</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mid clearfix">
+        <div class="mid-top">
+        <h5>欢迎留言讨论</h5>
+    </div>
+        <div class="mid-left">
+            <div class="box" id="pp" style="width: 550px">
+            </div>
+        </div>
+        <div class="mid-right">
+            <div class="box" id="pl">
+                <span>发表评论:</span>
+                <textarea  id="plTxt" cols="30" rows="10"></textarea>
+                <input type="button" value="留言" id="btn" onclick="mycommunication2()" >
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <p>@2020&nbsp;&nbsp;版权所有&nbsp;&nbsp;小蓝和他的朋友们</p>
+    </div>
+
+
+
+</div>
+<div class="mydisplay">
+    <div class="popOutBg" id="mypopOutBg"></div>
+    <div class="popOut" id="mypopOut">
+        <span title="关闭" id="myspan"> x </span>
+        <table>
+            <caption>欢迎登录</caption>
+            <tr>
+                <td width="120">用户名：</td>
+                <td><input type="text" class="inp" id="usnm" placeholder="请输入用户名" />
+                </td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" class="inp" id="pasw" placeholder="请输入密码" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="login jion" id="loginjion" onclick="myindex()" value="登录"  style="margin-top: 20px" />
+                    <!--  <input type="button" class="login zhuce" value="注册"  style="margin-top: 20px"/>   -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/js-denglu.js"></script>
+<script src="js/js-留言板.js"></script>
+
+
+</body>
+</html>

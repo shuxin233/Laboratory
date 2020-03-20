@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style5.css">
+    <link rel="stylesheet" href="css/mydenglu.css">
+    <link rel="stylesheet" href="css/mynav.css">
+    <title>联系我们</title>
+
+
+</head>
+<body>
+
+
+<div class="all">
+    <div class="header clearfix">
+        <div class="logo ">
+            <h1 id="i1">虚拟</h1>
+            <h1 id="i2">实验室</h1>
+            <h1 id="i3">Virtual Laboratory</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="index.html"><p></p> <h1 id="list1">首页</h1></a>
+                </li>
+
+                <li>
+                    <a href="Laboratory.html"> <p></p><h1>模拟实验</h1> </a>
+                </li>
+
+                <li>
+                    <a href="Study.html"> <p></p> <h1>知识学习</h1> </a>
+                </li>
+                <li>
+                    <a href="communication.html"> <p></p><h1>交流反馈</h1> </a>
+                </li>
+                <li style="width: 80px">
+                    <a href="about-us.html"><p></p><h1>联系我们</h1> </a>
+                </li>
+                <li style="margin-top: 20px">
+                    <a id="denglu" style="color:#8a8a8a;font-weight: bold;display: block"><button type="button" class="denglu" onclick="mydenglu()">登录</button></a>
+                    <span id="dengluspan" style="display: none"></span>
+                    <a id="zhuxiao"  style="font-size: 10px;display: none;float: right"><br>注销</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pic">
+        <img src="img/c联系我们.png" height="503" width="1100"/>
+    </div>
+    <div class="mid5">
+        <div class="left">
+            <h1>CONTACT</h1>
+            <p>您可以通过以下方式联系我们，或在右侧给我们留言</p>
+            <div class="plogo">
+                <a href="#"><img src="img/lo1.png" height="34" width="36"/></a>
+                <a href="#"><img src="img/lo2.png" height="34" width="36"/></a>
+                <a href="#"><img src="img/lo3.png" height="34" width="36"/></a>
+            </div>
+            <h2><img src="img/lo4.png" height="37" width="29" />15100000000</h2>
+            <p>我们的工作时间: 每周末9：00-17：00</p>
+            <p>邮箱：123456789@qq.com</p>
+            <p>网址/地址：ddddddddddd</p>
+        </div>
+        <div class="right">
+            <from>
+                <input type="text" name="bd" id="nm" placeholder="您的姓名">
+                <input type="text" name="bd" id="ph" placeholder="您的电话">
+                <input type="text" name="bd" id="mail" placeholder="您的邮箱">
+                <input type="text" name="bd" id="content" placeholder="您的需求">
+                <input type="submit" name="st"  id="st" onclick="myabout_us()" value="提交需求">
+            </from>
+        </div>
+    </div>
+    <div class="foot" style="margin-top: 15px">
+        <p>@2020&nbsp;&nbsp;版权所有&nbsp;&nbsp;小蓝和他的朋友们</p>
+
+    </div>
+</div>
+
+
+<div class="mydisplay">
+    <div class="popOutBg" id="mypopOutBg"></div>
+    <div class="popOut" id="mypopOut">
+        <span title="关闭" id="myspan"> x </span>
+        <table>
+            <caption>欢迎登录</caption>
+            <tr>
+                <td width="120">用户名：</td>
+                <td><input type="text" class="inp" id="usn1" placeholder="请输入用户名" style="width:281px; height:42px; line-height:30px; border:1px solid #999; padding:5px 10px; color:#000; font-size:14px; border-radius:6px;background: white" />
+                </td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" class="inp" id="pasw" placeholder="请输入密码" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="login jion" id="loginjion" onclick="myindex()" value="登录"  style="margin-top: 20px" />
+                    <!--  <input type="button" class="login zhuce" value="注册"  style="margin-top: 20px"/>   -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/myjs.js"></script>
+<script src="js/js-denglu.js"></script>
+</html>

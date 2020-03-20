@@ -1,0 +1,99 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    margin: auto;
+}
+
+
+
+
+
+.mid{
+    width: 1100px;
+    height: 800px;
+
+}
+
+.mid-top{
+    padding-top: 20px;
+    width: 200px;
+    height: 86px;
+    margin: auto;
+}
+
+.mid-top h5{
+    width: 400px;
+    font-size: 36px;
+    color: #8a8a8a;
+    font-weight: bold;
+}
+
+.mid-left{
+    float: left;
+    width: 700px;
+}
+
+.mid-right{
+    width: 400px;
+    float: right;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{  /*设置最外层盒子*/
+    width: 350px;
+    border: 1px solid #aaa;
+    padding:  20px 10px;
+}
+#plTxt{ /*设置文本域*/
+    width: 320px;
+    resize: none;/*防止用户拖拽*/
+    height: 100px;
+}
+
+
+
+.box ul{ /*将ul列表去除前面的点*/
+    list-style: none;
+}
+.box ul li{ /*设置li中的评论文字样式*/
+    width: 450px;
+    word-wrap: break-word;
+    word-break: normal;
+    border: 1px solid #aaa;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.box ul li a{ /*将删除的样式更改颜色，向右浮动，没有下划线*/
+    color: orange;
+    float: right;
+    text-decoration: none;
+
+}
+.box ul li .time{  /*将li中的时间改为向右浮动和改颜色*/
+    color: #8a8a8ae8;
+    float: right;
+}

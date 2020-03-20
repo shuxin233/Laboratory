@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: root
+    password: eternity_ouo_
+    url: jdbc:mysql://cdb-on3ebzc5.gz.tencentcdb.com:10138/labchemistry?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver

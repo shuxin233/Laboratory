@@ -1,0 +1,102 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    margin: auto;
+}
+
+
+
+
+.pic{
+    width: 1100px;
+    height:503px ;
+}
+
+
+
+
+
+
+.mid5 {
+    width: 1100px;
+    height: 310px;
+    background:#dbdbdb;
+
+}
+
+.mid5 .left{
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: #858585;
+    font-family:"Times New Roman",Times,serif;
+}
+.mid5 .left h1{
+    font-size: 34px;
+    padding-bottom: 8px;
+}
+.mid5 .left p{
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.mid5 .left h2{
+    font-size: 40px;
+    padding-bottom: 8px;
+}
+
+.mid5 .left .plogo{
+    float: left;
+    height: 34px;
+    width: 400px;
+    padding-bottom: 8px;
+}
+
+
+.mid5 .right {
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 150px;
+    color: #858585;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #cdcdcd;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #cdcdcd;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-decoration: none;
+    margin:5px 148px;
+    cursor: pointer;
+}
+
+

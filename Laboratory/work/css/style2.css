@@ -1,0 +1,196 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    margin: auto;
+}
+#myph{
+    display: none; position: absolute;  margin-top: 167px; margin-left: 160px;  cursor: pointer;
+}
+
+#mydian{
+    display: none;
+    position: absolute;
+    margin-top: 301px;
+    margin-left: 53px;  cursor: pointer;
+}
+
+#myxi{
+    display: none;position: absolute;margin-top: 319px;margin-left: 480px;  cursor: pointer;
+}
+#mybei{
+    display: none;position: absolute;margin-top: 381px;margin-left: 372px;  cursor: pointer;
+}
+#mygif1{
+    display: none;margin:6px 5px
+}
+#mygif2{
+    display: none;margin:6px 5px
+}
+
+#mylast{
+    display: none;
+    margin-top: 146px;
+    margin-left: 154px;
+}
+
+#tip{
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -50px;
+    font-size: 25px;
+    color: #00000073;
+    width: 151px;
+}
+
+#tipph{
+    display: none;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 244px;
+    font-size: 15px;
+    color: #000000ad;
+}
+
+#tips1{
+    display: none;
+    position: absolute;
+    margin-top: 151px;
+    margin-left: 364px;
+    color: #2125a5cf;
+    font-size: 25px;
+}
+
+#tips2{
+    display: none;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: #2125a582;
+    font-size: 20px;
+}
+
+#ban {
+    position: absolute;
+    display: none;
+    width: 750px;
+    height: 750px;
+}
+.mid{
+    margin: auto;
+    width: 1100px;
+    height: 800px;
+}
+
+
+.mid-left{
+    margin-top: 20px;
+    width: 760px;
+    height: 750px;
+    float: left;
+    background: url("../img/化学仪器/化学仪器/AA模拟场景.png") no-repeat 4px 5px;
+    background-size: 754px,750px;
+    display:block
+}
+
+.mid-right{
+    margin: 20px;
+    background: #54d9c88c;
+    width: 300px;
+    height: 750px;
+    float: right;
+}
+
+
+.mid-right ul{
+    margin: auto;
+}
+
+.mid-left li{
+    float: left;
+    width: 96px;
+    height: 120px;
+    list-style: none;
+    margin: 4px;
+    cursor: pointer;
+    position: absolute;
+    border:none;
+}
+#wins ul li{
+    background: #f5f5f5;
+    float: left;
+    width: 80px;
+    height: 120px;
+    list-style: none;
+    margin: 4px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+
+.myrightlist {
+    width: 80px;
+    height: 80px;
+}
+
+#wins ul li h2{
+    margin-top: 20px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+
+.mylist{
+    margin-top: 1px;
+    margin-right: 4px;
+    margin-left: 3px;
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align:center
+}
+
+#delete{
+    height: 100px;
+    width: 100px;
+    background: #54d9c840;
+    float: right;
+}
+#delete:hover{
+    background: #54d9c8;
+}
+
+.mid-left .s-equipment{
+    width: 120px;
+    height: 120px;
+}
+
+.mid-left .m-equipment{
+    width: 160px;
+    height: 160px;
+}
+
+.mid-left .l-equipment{
+    width: 200px;
+    height: 200px;
+}
+
+

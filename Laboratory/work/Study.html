@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/mydenglu.css">
+    <link rel="stylesheet" href="css/mynav.css">
+    <title>知识学习</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/myjs.js"></script>
+</head>
+<body>
+
+
+<div class="all">
+    <div class="header clearfix">
+        <div class="logo ">
+            <h1 id="i1">虚拟</h1>
+            <h1 id="i2">实验室</h1>
+            <h1 id="i3">Virtual Laboratory</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="index.html"><p></p> <h1 id="list1">首页</h1></a>
+                </li>
+
+                <li>
+                    <a href="Laboratory.html"> <p></p><h1>模拟实验</h1> </a>
+                </li>
+
+                <li>
+                    <a href="Study.html"> <p></p> <h1>知识学习</h1> </a>
+                </li>
+                <li>
+                    <a href="communication.html"> <p></p><h1>交流反馈</h1> </a>
+                </li>
+                <li style="width: 80px">
+                    <a href="about-us.html"><p></p><h1>联系我们</h1> </a>
+                </li>
+                <li style="margin-top: 20px">
+                    <a id="denglu" style="color:#8a8a8a;font-weight: bold;display: block"><button type="button" class="denglu" onclick="mydenglu()">登录</button></a>
+                    <span id="dengluspan" style="display: none"></span>
+                    <a id="zhuxiao"  style="font-size: 10px;display: none;float: right"><br>注销</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mid clearfix">
+        <div class="mid-top">
+            <h1>欢迎来到知识的海洋</h1>
+        </div>
+        <div class="mid-mid1">
+            <div class="mid1-list">
+                <div class="box1 clearfix" id="box11">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="wins" style="position:absolute;height:740px;width:1080px;overflow:auto;background:#EEEEEE;margin-left: 7px;margin-top: 5px">
+                                    <ul>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+                                        <a href="#"><li><p class="mid1-list-p"><span class="studyspan">——————</span></p></li></a>
+
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="right">
+            <span onmouseover='scrollb=setInterval("wins.scrollLeft-=10",100)'
+                  onmouseout=clearInterval(scrollb)></span>
+                                <span onmouseover='scrollb=setInterval("wins.scrollTop-=10",100)'
+                                      onmouseout=clearInterval(scrollb)></span>
+                                <span onmouseover='scrollb=setInterval("wins.scrollLeft+=10",100)'
+                                      onmouseout=clearInterval(scrollb)></span>
+                                <span onmouseover='scrollb=setInterval("wins.scrollTop+=10",100)'
+                                      onmouseout=clearInterval(scrollb)></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <p>@2020&nbsp;&nbsp;版权所有&nbsp;&nbsp;小蓝和他的朋友们</p>
+
+    </div>
+</div>
+
+<div class="mydisplay">
+    <div class="popOutBg" id="mypopOutBg"></div>
+    <div class="popOut" id="mypopOut">
+        <span title="关闭" id="myspan"> x </span>
+        <table>
+            <caption>欢迎登录</caption>
+            <tr>
+                <td width="120">用户名：</td>
+                <td><input type="text" class="inp" id="usnm" placeholder="请输入用户名" />
+                </td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" class="inp" id="pasw" placeholder="请输入密码" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="login jion" id="loginjion" onclick="myindex()" value="登录"  style="margin-top: 20px" />
+                    <!--  <input type="button" class="login zhuce" value="注册"  style="margin-top: 20px"/>   -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</div>
+
+<script src="js/js-denglu.js"></script>
+
+</body>
+</html>

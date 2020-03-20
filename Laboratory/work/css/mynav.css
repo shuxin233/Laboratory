@@ -1,0 +1,118 @@
+
+body{
+    margin: auto;
+    background-image: linear-gradient(to top, #f2f5ee,#f2f5ee,#d4ecb2,#54d9c8,#d4ecb2,#f2f5ee,#f2f5ee);
+    font-family:"SimHei" ,serif ;
+}
+
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    /*在左右两侧均不允许浮动元素。*/
+}
+
+
+.all{
+    padding-top: 5px;
+    width: 1100px;
+    margin: auto;
+}
+
+.header{
+    background: #f5f5f5;
+    height: 70px;
+}
+
+.header .logo {
+    margin-left:30px ;
+    float: left;
+}
+
+.header .logo h1 {
+    margin-top: 8px;
+    float: left;
+}
+.header .logo  #i1{
+    color: #222222;
+    font-size: 40px;
+}
+.header .logo  #i2{
+    color: #8dc73f;
+    font-size: 40px;
+}
+
+.header .logo  #i3{
+    margin-top: 42px;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+
+
+.header .list ul{
+    margin-left: 500px;
+}
+
+
+.header .list ul li{
+    list-style: none;
+    float: left;
+    width: 100px;
+    margin-top:3px;
+}
+.header .list #list1{
+    margin-left: 15px;
+}
+
+.header .list ul li a{
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.header .list ul li a:hover{
+    color: #8dc73f;
+    font-weight: bold;
+}
+
+.header .list ul li p{
+    margin-bottom: 20px;
+    background: #f5f5f5;
+    width: 70px;
+    height: 3px;
+}
+
+.header .list ul li a:hover p{
+    margin-left: -5px;
+    background: #8dc73f;
+    width: 70px;
+    height: 2px;
+}
+
+
+
+.foot{
+    padding-top: 6px;
+    background: #f5f5f5;
+    width: 1100px;
+    height: 36px;
+    float: left;
+}
+
+.foot p{
+    color: #8a8a8aa6;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.list a{
+    cursor: pointer;
+}
